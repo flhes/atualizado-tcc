@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Livros</title>
+    <link rel="stylesheet" href="/pgprincipal/styles.css">
+</head>
+<header class="header-container">
+    <h1>VestBook</h1>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Pesquisar por nome do livro...">
+    </div>
+    <div class="favorites-container">
+        <button id="show-favorites">Favoritos ❤️</button>
+    </div>
+    <div class="filter-container">
+        <label for="book-filter" id="filtroN">Filtrar por gênero:</label>
+        <select id="book-filter">
+            <option value="todos">Todos</option>
+            <option value="matematica">Matemática</option>
+            <option value="portugues">Português</option>
+            <option value="quimica">Química</option>
+            <option value="biologia">Biologia</option>
+            <option value="fisica">Física</option>
+            <option value="historia">História</option>
+            <option value="geografia">Geografia</option>
+            <option value="resumo">Resumos</option>
+        </select>
+    </div>
+</header>
+
+<body>
+    <div class="video-fundo">
+        <video autoplay muted loop>
+            <source src="../fundo.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+    </div>
+    
+        <!-- Livros -->
+        <div class="book-container">
+            <!-- Matemática -->
+            <div class="book" data-type="matematica" data-name="Álgebra Essencial">
+                <img src="/img/algebraessencial.png" alt="Álgebra Essencial">
+                <h2>Álgebra Essencial</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Operações básicas">
+                <img src="/img/operacoes.png" alt="Operações básicas">
+                <h2>Operações básicas</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m2.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Análise combinatória">
+                <img src="/img/Análise Combinatória.png" alt="Análise combinatória">
+                <h2>Análise combinatória</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Porcentagem">
+                <img src="/img/porcentagem.png" alt="Porcentagem">
+                <h2>Porcentagem</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Geometria plana e geometria espacial">
+                <img src="/img/Geometria plana e geometria espacial.png" alt="Geometria plana e geometria espacial">
+                <h2>Geometria plana e geometria espacial</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name=" Razão e proporção">
+                <img src="/img/Razão e Proporção com foco matemático.png" alt=" Razão e proporção">
+                <h2>Razão e proporção</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Equações e funções">
+                <img src="/img/Equações e funções.png" alt="Equações e funções">
+                <h2>Equações e funções</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="matematica" data-name="Estatística e probabilidade">
+                <img src="/img/Estatística e probabilidade.png" alt="Estatística e probabilidade">
+                <h2>Estatística e probabilidade</h2>
+                <p>Gênero: Matemática</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>  
+
+            <!-- Adicione mais livros de Matemática aqui -->
+
+            <!-- Português -->
+            <div class="book" data-type="portugues" data-name="Gramática Completa">
+                <img src="../img/GramáticaCompleta.png" alt="Gramática Completa">
+                <h2>Gramática Completa</h2>
+                <p>Gênero: Português</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/p1.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="portugues" data-name="Gêneros textuais">
+                <img src="../img/Gênerostextuais.png" alt="Gêneros textuais">
+                <h2>Gêneros textuais</h2>
+                <p>Gênero: Português</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/p2.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="portugues" data-name="Variação linguística">
+                <img src="../img/Variaçãolinguística.png" alt="Variação linguística">
+                <h2>Variação linguística</h2>
+                <p>Gênero: Português</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/p3.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="portugues" data-name="Intertextualidade">
+                <img src="/img/intertextualidade.png" alt="Intertextualidade">
+                <h2>Intertextualidade</h2>
+                <p>Gênero: Português</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/p4.html" class="button">Ver PDF</a><br>
+            </div>
+
+            <div class="book" data-type="portugues" data-name="Relação entre texto e paráfrase">
+                <img src="/img/Relação entre texto e paráfrase.png" alt="Relação entre texto e paráfrase">
+                <h2>Relação entre texto e paráfrase</h2>
+                <p>Gênero: Português</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/p5.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de Português aqui -->
+            <!-- Química -->
+            <div class="book" data-type="quimica" data-name="Química Inorgânica">
+                <img src="https://via.placeholder.com/150" alt="Química Inorgânica">
+                <h2>Química Inorgânica</h2>
+                <p>Gênero: Química</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de Química aqui -->
+            <!-- Biologia -->
+            <div class="book" data-type="biologia" data-name="Ecologia">
+                <img src="/img/ecologia.png" alt="Ecologia">
+                <h2>Ecologia</h2>
+                <p>Gênero: Biologia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/b1.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="biologia" data-name="Fisiologia humana">
+                <img src="/img/fisiologiahumana.png" alt="Fisiologia humana">
+                <h2>Fisiologia humana</h2>
+                <p>Gênero: Biologia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/b2.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="biologia" data-name="Biotecnologia">
+                <img src="/img/biotecnologia.png" alt="Biotecnologia">
+                <h2>Biotecnologia</h2>
+                <p>Gênero: Biologia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/b3.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="biologia" data-name="Biologia celular">
+                <img src="/img/biologiacelular.png" alt="Biologia celular">
+                <h2>Biologia celular</h2>
+                <p>Gênero: Biologia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/b4.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="biologia" data-name="Botânica">
+                <img src="/img/botanica.png" alt="Botânica">
+                <h2>Botânica</h2>
+                <p>Gênero: Biologia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/b5.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de Biologia aqui -->
+            <!-- Física -->
+            <div class="book" data-type="fisica" data-name="Usinas de eletricidade e instalações residenciais">
+                <img src="/img/usinaseletricidade.png" alt="Usinas de eletricidade e instalações residenciais">
+                <h2>Usinas de eletricidade e instalações residenciais</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f1.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Ondulatória">
+                <img src="/img/ondulatoria.png" alt="Ondulatória">
+                <h2>Ondulatória</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f2.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Calorimetria">
+                <img src="/img/calorimetria.png" alt="Calorimetria">
+                <h2>Calorimetria</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f3.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Hidrostática">
+                <img src="/img/hidrostática.png" alt="Hidrostática">
+                <h2>Hidrostática</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f4.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Óptica">
+                <img src="/img/optica.png" alt="Óptica">
+                <h2>Óptica</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f5.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Eletrodinâmica">
+                <img src="/img/eletrodinâmica.png" alt="Eletrodinâmica">
+                <h2>Eletrodinâmica</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f6.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Cinemática">
+                <img src="/img/cinemática.png" alt="Cinemática">
+                <h2>Cinemática</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f7.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Dinâmica">
+                <img src="/img/dinâmica.png" alt="Dinâmica">
+                <h2>Dinâmica</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f8.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Magnetismo">
+                <img src="/img/magnetismo.png" alt="Magnetismo">
+                <h2>Magnetismo</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f9.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="fisica" data-name="Termodinâmica">
+                <img src="/img/termodinâmica.png" alt="Termodinâmica">
+                <h2>Termodinâmica</h2>
+                <p>Gênero: Física</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/f10.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de Física aqui -->
+            <!-- História -->
+            <div class="book" data-type="historia" data-name="História do Brasil:">
+                <img src="/img/históriabrasil.png" alt="História do Brasil:">
+                <h2>História do Brasil:</h2>
+                <p>Gênero: História</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/h1.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="historia" data-name="História Geral:">
+                <img src="/img/históriageral.png" alt="História Geral:">
+                <h2>História Geral:</h2>
+                <p>Gênero: História</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/h2.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de História aqui -->
+            <!-- Geografia -->
+            <div class="book" data-type="geografia" data-name="Problemas ambientais">
+                <img src="https://via.placeholder.com/150" alt="Problemas ambientais">
+                <h2>Problemas ambientais</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/mg1.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Cartografia">
+                <img src="https://via.placeholder.com/150" alt="Cartografia">
+                <h2>Cartografia</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g2.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Geografia física">
+                <img src="https://via.placeholder.com/150" alt="Geografia física">
+                <h2>Geografia física</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g3.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Geografia Mundial">
+                <img src="https://via.placeholder.com/150" alt="Geografia Mundial">
+                <h2>Geografia Mundial</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g4.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Geomorfologia">
+                <img src="https://via.placeholder.com/150" alt="Geomorfologia">
+                <h2>Geomorfologia</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g5.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Clima e Vegetação">
+                <img src="https://via.placeholder.com/150" alt="Clima e Vegetação">
+                <h2>Clima e Vegetação</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g6.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Água (hidrografia)">
+                <img src="https://via.placeholder.com/150" alt="Água (hidrografia)">
+                <h2>Água (hidrografia)</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g7.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Urbanização">
+                <img src="https://via.placeholder.com/150" alt="Urbanização">
+                <h2>Urbanização</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g8.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="População">
+                <img src="https://via.placeholder.com/150" alt="População">
+                <h2> População</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g9.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Imigrações">
+                <img src="https://via.placeholder.com/150" alt="Imigrações">
+                <h2>Imigrações</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g10.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Industrialização e comércio">
+                <img src="https://via.placeholder.com/150" alt="Industrialização e comércio">
+                <h2>Industrialização e comércio</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g11.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Geopolítica">
+                <img src="https://via.placeholder.com/150" alt="Geopolítica">
+                <h2>Geopolítica</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g12.html" class="button">Ver PDF</a><br>
+            </div>
+            <div class="book" data-type="geografia" data-name="Turismo">
+                <img src="https://via.placeholder.com/150" alt="Turismo">
+                <h2>Turismo</h2>
+                <p>Gênero: Geografia</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/g13.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais livros de Geografia aqui -->
+            <!-- Resumos -->
+            <div class="book" data-type="resumo" data-name="Resumo de Química">
+                <img src="https://via.placeholder.com/150" alt="Resumo de Química">
+                <h2>Resumo de Química</h2>
+                <p>Gênero: Resumos</p>
+                <button class="favorite-button">Adicionar aos Favoritos</button><br><br>
+                <a href="/apostilas/m1.html" class="button">Ver PDF</a><br>
+            </div>
+            <!-- Adicione mais resumos aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
